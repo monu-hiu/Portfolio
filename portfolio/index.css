@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Share+Tech&family=Source+Code+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  width: 100vwpx;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: rgb(168, 165, 165);
+  font-family: "Share Tech", sans-serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+
+}
+
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.devInfo {
+  max-width: 600px;
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+}
+
+.hello {
+  font-size: 50px;
+}
+
+.name {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Share Tech", sans-serif;
+}
+
+.about {
+  font-size: 30px;
+}
+
+.moreAbout {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.button button {
+  padding: 10px 20px;
+  border-radius: 23px;
+  color: white;
+  background-color: blue;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.button button:hover {
+  background-color: white;
+  color: blue;
+}
+
+.devPic img {
+  width: 220px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.contactForm {
+  max-width: 600px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contactForm h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.contactForm p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.cvSection {
+  padding: 40px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.cvSection h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.cvSection p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.sidebargo {
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+
+.closeIcon {
+  display: none; /* initially hidden */
+  margin-left: 104px;
+}
